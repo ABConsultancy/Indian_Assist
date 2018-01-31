@@ -11,6 +11,8 @@ class NRI(models.Model):
     budget=models.IntegerField(null=True)
     Description=models.TextField()
 
+    # Fixed
+
     def submit(self):
         self.submit()
         self.save()
